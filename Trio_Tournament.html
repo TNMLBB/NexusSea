@@ -120,7 +120,7 @@
                             <h3 class="2xl font-bold text-primary-accent mb-4 text-center" style="text-shadow: 0 0 5px var(--primary-accent);">CRONOGRAMA OFICIAL DEL TORNEO</h3>
                             <div class="grid place-items-center">
                                 <div class="p-6 rounded-lg border-2 w-full max-w-md text-center" style="border-color: var(--primary-accent);">
-                                    <span class="block text-3xl font-extrabold text-primary-accent mb-2">VIERNES 28 NOV 2025</span>
+                                    <span class="block text-3xl font-extrabold text-primary-accent mb-2">SÁBADO 13 DIC 2025</span>
                                     <span class="block text-xl font-bold text-secondary-accent mb-3">8:00 PM Vzla</span>
                                     <p class="text-gray-200 font-semibold">Rondas a Jugar:</p>
                                     <ul class="list-none text-base text-gray-300 mt-1">
@@ -319,10 +319,10 @@
     <script>
         function getCssVar(n){return getComputedStyle(document.documentElement).getPropertyValue(n).trim()}
         document.addEventListener('DOMContentLoaded',()=>{
-            // Actualización del link de calendario para VIERNES 28 NOV 2025
+            // Actualización del link de calendario para SÁBADO 13 DIC 2025
             const calLink=document.getElementById('calendar-link');
             if(calLink){
-                const y=2025,d=`${y}1128`,t='NEXUS SEA TRÍO TOURNAMENT (¡Semis y Final Bo3 en vivo!)',det='Torneo de Mobile Legends (TNML) - Rondas de Eliminación. ¡Asegúrate de estar listo a tiempo! Nota: Se transmiten dos Semifinales (Bo1) y la Gran Final (Bo3) por TikTok.',loc='Online - Servidor de Mobile Legends Bang Bang (Transmisión en TikTok de TNML)';
+                const d='20251213',t='NEXUS SEA TRÍO TOURNAMENT (¡Semis y Final Bo3 en vivo!)',det='Torneo de Mobile Legends (TNML) - Rondas de Eliminación. ¡Asegúrate de estar listo a tiempo! Nota: Se transmiten dos Semifinales (Bo1) y la Gran Final (Bo3) por TikTok.',loc='Online - Servidor de Mobile Legends Bang Bang (Transmisión en TikTok de TNML)';
                 calLink.href=`https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(t)}&details=${encodeURIComponent(det)}&location=${encodeURIComponent(loc)}&dates=${d}T200000/${d}T230000&ctz=America/Caracas`;
             }
             const accs=document.querySelectorAll('.accordion-item');
